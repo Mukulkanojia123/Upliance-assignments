@@ -66,7 +66,7 @@ const Counter = () => {
 
     return (
        <ThemeProvider theme={theme}>
-        <Card sx={{ maxWidth: 400, margin: 'auto', marginBottom: '20px', background: backgroundColor }}>
+        <Card sx={{ manWidth: '600', marginTop: '200px', marginBottom: '400px', background: backgroundColor }}>
             <CardActionArea>
                 {/* Display the count */}
                

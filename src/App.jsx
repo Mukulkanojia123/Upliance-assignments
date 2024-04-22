@@ -2,15 +2,25 @@
 import './App.css'
 import Counter from './components/Counter'
 import Form from './components/Form'
+// import TextCard from './components/TextArea'
+import RichText from './components/RichText'
+
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Hello</h1>
-      <Form/>
+    <div className='Dashboard'>
+      
+      <Form />
       <Counter/>
+      
+      
+    </div>
+    <div className='RichText'>
+    <RichText />
+    </div>
     </>
   )
 }
