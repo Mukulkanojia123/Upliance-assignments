@@ -1,0 +1,14 @@
+# counter
+counter with increment and decrement button and reset button
+as the counter increment or decrease the background color is changes 
+the value is persist between renders
+
+
+# Form
+the form take the value user and user the react-persist for persist the value 
+it also save value to number of user submit their form 
+react- persist use the local storege as beckend
+
+# Rich TEXT editor 
+use The react- Quill library for create rich-text edior 
+i use react persist for save the value to text that is enter in text area with formating 
